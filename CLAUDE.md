@@ -1,11 +1,20 @@
 # Working agreement
 
-## Self-documenting code
+## Comments
 
-Less is more. Prefer clear names and obvious structure over comments. Write a
-comment only where the *why* isn't recoverable from the code — a datasheet
-quirk, a timing constraint, a chosen constant's derivation. No file headers, no
-restating what the next line does, no docs that duplicate the source.
+There's a line to walk here, and both sides of it matter.
+
+**Write the explanatory ones.** Where a fact isn't recoverable from the code,
+say it: a datasheet quirk, a timing constraint, why a constant is that number,
+why the obvious approach doesn't work here. These are the comments worth having
+and they can be several lines long.
+
+**Write nothing else.** No file headers, no section banners, no restating what
+the next line already says, no docs that duplicate the source. A comment that a
+good name would have made unnecessary should be a good name instead.
+
+The test: would I be able to reconstruct this from the code and the reference
+manual? If yes, don't write it.
 
 ## This is a learning repository
 
