@@ -1,4 +1,4 @@
-# synth
+# digital-synth
 
 A digital synthesizer on a WeAct BlackPill (STM32F411CEU6).
 
